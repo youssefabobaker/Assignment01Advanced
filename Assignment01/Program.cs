@@ -46,7 +46,10 @@ namespace Assignment01
             //Console.WriteLine(GenericConstraints02<string>.GetValue());
             #endregion
 
-
+            #region Q9: What is the 'new()' constraint? Write an example.
+            //What is the 'new()' constraint? => The 'new()' constraint in C# is used in generic type definitions to specify that the type parameter must have a public parameterless constructor. This constraint ensures that instances of the type can be created using the 'new' keyword without any arguments.
+            //Cone coneInstance = GenericConstraints03<Cone>.CreateInstance();
+            #endregion
 
         }
 

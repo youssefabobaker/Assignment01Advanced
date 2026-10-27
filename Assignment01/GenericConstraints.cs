@@ -25,3 +25,19 @@ internal static class GenericConstraints02<T> where T : class
         return Value;
     }
 }
+
+internal static class GenericConstraints03<T> where T : new()
+{
+    public static T CreateInstance()
+    {
+        return new T();
+    }
+}
+
+internal class Cone
+{
+    public Cone()
+    {
+        Console.WriteLine("cone class constructor");
+    }
+}
