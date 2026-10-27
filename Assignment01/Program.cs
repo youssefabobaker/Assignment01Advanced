@@ -1,5 +1,4 @@
-﻿using System.Data;
-
+﻿
 namespace Assignment01
 {
     internal class Program
@@ -36,9 +35,18 @@ namespace Assignment01
             #region Q7: What is the 'struct' constraint? Write an example.
             //What is the 'struct' constraint? => The 'struct' constraint in C# is used in generic type definitions to specify that the type parameter must be a value type (i.e., a struct). This constraint ensures that only value types can be used as arguments for the generic type.
             //int x = 5;
-            //GenericConstraints<int>.SetValue(x);
-            //Console.WriteLine(GenericConstraints<int>.GetValue());
+            //GenericConstraints01<int>.SetValue(x);
+            //Console.WriteLine(GenericConstraints01<int>.GetValue());
             #endregion
+
+            #region Q8: What is the 'class' constraint? Write an example. 
+            //What is the 'class' constraint?=> The 'class' constraint in C# is used in generic type definitions to specify that the type parameter must be a reference type (i.e., a class). This constraint ensures that only reference types can be used as arguments for the generic type.
+            //string x = "Hello";
+            //GenericConstraints02<string>.SetValue(x);
+            //Console.WriteLine(GenericConstraints02<string>.GetValue());
+            #endregion
+
+
 
         }
 
