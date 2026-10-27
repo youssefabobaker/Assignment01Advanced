@@ -27,6 +27,10 @@
             //Console.WriteLine($"Max number: {Helper.FindMax(numbers)}");
             #endregion
 
+            #region Q6: What is a generic interface? Write IRepository<T>. 
+            //What is a generic interface? => A generic interface is an interface that is defined with type parameters, allowing it to be implemented by classes or structs that specify the actual types to be used. It enables the creation of flexible and reusable interfaces that can work with different data types while maintaining type safety.
+            #endregion
+
         }
 
 
