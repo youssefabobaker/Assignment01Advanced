@@ -1,4 +1,6 @@
-﻿namespace Assignment01
+﻿using System.Data;
+
+namespace Assignment01
 {
     internal class Program
     {
@@ -29,6 +31,13 @@
 
             #region Q6: What is a generic interface? Write IRepository<T>. 
             //What is a generic interface? => A generic interface is an interface that is defined with type parameters, allowing it to be implemented by classes or structs that specify the actual types to be used. It enables the creation of flexible and reusable interfaces that can work with different data types while maintaining type safety.
+            #endregion
+
+            #region Q7: What is the 'struct' constraint? Write an example.
+            //What is the 'struct' constraint? => The 'struct' constraint in C# is used in generic type definitions to specify that the type parameter must be a value type (i.e., a struct). This constraint ensures that only value types can be used as arguments for the generic type.
+            //int x = 5;
+            //GenericConstraints<int>.SetValue(x);
+            //Console.WriteLine(GenericConstraints<int>.GetValue());
             #endregion
 
         }
