@@ -18,17 +18,17 @@
             //int x = 5;
             //int y = 10;
             //Console.WriteLine($"Before Swap: x = {x}, y = {y}");
-            //Swap<int>(ref x, ref y);
+            //Helper.Swap<int>(ref x, ref y);
             //Console.WriteLine($"After Swap: x = {x}, y = {y}");
+            #endregion
+
+            #region Q5: Write a generic method FindMax<T> that finds maximum value
+            //int[] numbers = { 1, 3, 5, 7, 9 };
+            //Console.WriteLine($"Max number: {Helper.FindMax(numbers)}");
             #endregion
 
         }
 
-        //public static void Swap<T>(ref T a, ref T b)
-        //{
-        //    T temp = a;
-        //    a = b;
-        //    b = temp;
-        //}
+
     }
 }
