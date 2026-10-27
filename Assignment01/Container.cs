@@ -9,7 +9,7 @@ internal class Container <T>
         Value = value;
     }
 
-    public T Get()
+    public T? Get()
     {
         return Value;
     }
