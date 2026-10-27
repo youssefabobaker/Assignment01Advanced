@@ -51,6 +51,12 @@ namespace Assignment01
             //Cone coneInstance = GenericConstraints03<Cone>.CreateInstance();
             #endregion
 
+            #region Q10:  What is the interface constraint? Write an example.
+            //What is the interface constraint? => The interface constraint in C# is used in generic type definitions to specify that the type parameter must implement a particular interface.
+            //Cone coneInstance = new Cone();
+            //GenericConstraints04<Cone>.DrawShape(coneInstance);
+            #endregion
+
         }
 
 

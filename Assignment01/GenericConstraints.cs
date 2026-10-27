@@ -34,10 +34,30 @@ internal static class GenericConstraints03<T> where T : new()
     }
 }
 
-internal class Cone
+internal class Cone : IShape
 {
     public Cone()
     {
         Console.WriteLine("cone class constructor");
     }
+
+    public void Draw()
+    {
+        Console.WriteLine("Drawing a cone");
+    }
 }
+
+internal interface IShape
+{
+    void Draw();
+}
+
+internal static class GenericConstraints04<T> where T : IShape
+{
+    public static void DrawShape(T shape)
+    {
+        shape.Draw();
+    }
+}
+
+
