@@ -81,6 +81,10 @@ namespace Assignment01
             #region Q15: What is covariance? Explain the 'out' keyword.
             //What is covariance? Explain the 'out' keyword => Covariance allows a method to return a more derived type than that specified by the generic parameter. The 'out' keyword is used in generic type parameters to indicate that the type parameter is covariant, meaning it can be substituted with a more derived type.
             #endregion
+
+            #region Q16: What is contravariance? Explain the 'in' keyword. 
+            //What is contravariance? Explain the 'in' keyword. => Contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter. The 'in' keyword is used in generic type parameters to indicate that the type parameter is contravariant, meaning it can be substituted with a less derived type.
+            #endregion
         }
 
 
