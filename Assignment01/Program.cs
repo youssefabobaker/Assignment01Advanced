@@ -94,6 +94,9 @@ namespace Assignment01
             //How do static members work in generic types? => are shared with same generic type and different with different generic types.
             #endregion
 
+            #region Q19: How can you inherit from a generic class?
+            //How can you inherit from a generic class? => by specifying the type arguments for the base class in the derived class declaration. The derived class can then use the generic type parameters of the base class as if they were its own.
+            #endregion
 
 
         }
