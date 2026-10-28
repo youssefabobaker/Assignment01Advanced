@@ -67,9 +67,9 @@ namespace Assignment01
             //GenericConstraints06<Animal>.DisplayInfo(new Animal { Name = "abc" });
             #endregion
 
-
-
-
+            #region Q13: What does the 'default' keyword do in generics? 
+            //What does the 'default' keyword do in generics? => is used to obtain the default value of a type parameter. For reference types, it returns null, and for value types, it returns the default value. It allows you to initialize variables of generic types without knowing their specific type at compile time.
+            #endregion
 
 
         }
