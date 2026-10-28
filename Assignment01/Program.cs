@@ -71,6 +71,15 @@ namespace Assignment01
             //What does the 'default' keyword do in generics? => is used to obtain the default value of a type parameter. For reference types, it returns null, and for value types, it returns the default value. It allows you to initialize variables of generic types without knowing their specific type at compile time.
             #endregion
 
+            #region Q14: Write a SafeList<T> that returns default when the index is invalid.
+            //SafeList<String> safeNumbers = new SafeList<String>();
+            //safeNumbers.Add("Hello");
+            //Console.WriteLine(safeNumbers[0]);
+            //Console.WriteLine(safeNumbers[5]);
+            #endregion
+
+
+
 
         }
 
