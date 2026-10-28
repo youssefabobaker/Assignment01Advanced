@@ -78,9 +78,9 @@ namespace Assignment01
             //Console.WriteLine(safeNumbers[5]);
             #endregion
 
-
-
-
+            #region Q15: What is covariance? Explain the 'out' keyword.
+            //What is covariance? Explain the 'out' keyword => Covariance allows a method to return a more derived type than that specified by the generic parameter. The 'out' keyword is used in generic type parameters to indicate that the type parameter is covariant, meaning it can be substituted with a more derived type.
+            #endregion
         }
 
 
