@@ -90,6 +90,10 @@ namespace Assignment01
             //What is the difference between covariance and contravariance ? => Covariance allows a method to return a more derived type than that specified by the generic parameter, while contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter. covariance is about output types, and contravariance is about input types.
             #endregion
 
+            #region Q18: How do static members work in generic types?
+            //How do static members work in generic types? => are shared with same generic type and different with different generic types.
+            #endregion
+
 
 
         }
