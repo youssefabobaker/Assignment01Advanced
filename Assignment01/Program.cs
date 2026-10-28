@@ -61,6 +61,17 @@ namespace Assignment01
             // What is the base class constraint? => The base class constraint in C# is used in generic type definitions to specify that the type parameter must inherit from a particular base class.
             //GenericConstraints05<Dog>.Train(new Dog { Name = "abc" });
             #endregion
+
+            #region Q12: How do you apply multiple constraints? Write an example.  
+            //How do you apply multiple constraints? => You can apply multiple constraints to a generic type parameter by separating them with commas. 
+            //GenericConstraints06<Animal>.DisplayInfo(new Animal { Name = "abc" });
+            #endregion
+
+
+
+
+
+
         }
 
 

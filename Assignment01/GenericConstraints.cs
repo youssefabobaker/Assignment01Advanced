@@ -61,9 +61,15 @@ internal static class GenericConstraints04<T> where T : IShape
 }
 
 
-public class Animal
+public class Animal : IComparable
 {
     public string Name { get; set; } = default!;
+
+    public int CompareTo(object? obj)
+    {
+        throw new NotImplementedException();
+    }
+
     public virtual void Speak()
     {
         Console.WriteLine("Some sound");
@@ -87,6 +93,11 @@ public static class GenericConstraints05<T> where T : Animal
     }
 }
 
-
-
+public static class GenericConstraints06<T> where T : class, IComparable, new()
+{
+   public static void DisplayInfo(T value)
+    {
+        Console.WriteLine($"Type: {typeof(T).Name}");
+    }
+}
 
