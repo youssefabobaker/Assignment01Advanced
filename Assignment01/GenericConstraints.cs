@@ -61,3 +61,32 @@ internal static class GenericConstraints04<T> where T : IShape
 }
 
 
+public class Animal
+{
+    public string Name { get; set; } = default!;
+    public virtual void Speak()
+    {
+        Console.WriteLine("Some sound");
+    }
+}
+
+public class Dog : Animal
+{
+    public override void Speak()
+    {
+        Console.WriteLine("Woof!");
+    }
+}
+
+public static class GenericConstraints05<T> where T : Animal
+{
+    public static void Train(T animal)
+    {
+        Console.Write($"Training {animal.Name}: ");
+        animal.Speak();
+    }
+}
+
+
+
+
