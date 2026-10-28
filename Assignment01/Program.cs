@@ -85,6 +85,13 @@ namespace Assignment01
             #region Q16: What is contravariance? Explain the 'in' keyword. 
             //What is contravariance? Explain the 'in' keyword. => Contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter. The 'in' keyword is used in generic type parameters to indicate that the type parameter is contravariant, meaning it can be substituted with a less derived type.
             #endregion
+
+            #region Q17: What is the difference between covariance and contravariance ?
+            //What is the difference between covariance and contravariance ? => Covariance allows a method to return a more derived type than that specified by the generic parameter, while contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter. covariance is about output types, and contravariance is about input types.
+            #endregion
+
+
+
         }
 
 
